@@ -1,0 +1,127 @@
+.container {
+  background-color: #3572ef;
+  height: 100vh;
+  position: absolute;
+  width: 100%;
+}
+
+.card_area {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  max-width: 450px;
+  width: 100%;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 30px 10px;
+}
+
+.card_header h1 {
+  color: #3572ef;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  font-size: 35px;
+  text-align: center;
+}
+
+.card_body {
+  display: flex;
+  margin-top: 30px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card_body input {
+  background-color: ghostwhite;
+  padding: 17px 25px;
+  font-size: 18px;
+  border: 12px solid ghostwhite;
+  font-family: "Poppins", sans-serif;
+  width: 350px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  margin: 5px;
+}
+
+.card_btn {
+  padding: 12px 26px;
+  color: #fff;
+  background-image: linear-gradient(180deg, #3572ef 0%, #205efa 100%);
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  border-radius: 8px;
+  border: 0;
+  font-weight: bold;
+  font-size: 16px;
+  transition: all 150ms ease-in-out;
+}
+
+.card_btn:hover {
+  filter: brightness(1.1);
+}
+
+.card_btn:active {
+  transform: scale(0.95);
+}
+
+.card_btn_area {
+  width: 400px;
+  display: flex;
+  margin-top: 5px;
+  justify-content: flex-end;
+}
+
+.card_footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.card_footer p {
+  font-family: "Poppins", sans-serif;
+}
+
+.card_footer span {
+  font-weight: bold;
+  cursor: pointer;
+  color: black;
+}
+
+.card_footer span:hover {
+  color: #3572ef;
+}
+
+@media only screen and (max-width: 490px) {
+  .card_header h1 {
+    font-size: 25px;
+  }
+
+  .card_body input {
+    font-size: 15px;
+    width: 300px;
+  }
+  .card_btn_area {
+    width: 350px;
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  .card_body input {
+    width: 250px;
+  }
+  .card_btn_area {
+    width: 300px;
+  }
+}

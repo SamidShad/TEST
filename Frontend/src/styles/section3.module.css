@@ -1,0 +1,42 @@
+.explain_section h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  color: #3572ef;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.explain_area {
+  display: flex;
+  margin-top: 25px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.explain_container {
+  max-width: 1600px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.explain_container img {
+  width: 800px;
+}
+
+.text_container h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  color: #3572ef;
+}
+
+.text_container p {
+  margin-top: 20px;
+  max-width: 700px;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: black;
+}

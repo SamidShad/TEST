@@ -1,0 +1,153 @@
+.show_post_area {
+  display: flex;
+  margin-top: 140px;
+  justify-content: center;
+}
+
+.show_post_container {
+  max-width: 1600px;
+  width: 100%;
+  height: 100%;
+}
+
+.show_post_container h1 {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 65px;
+  color: #3572ef;
+}
+
+.post_cards_area {
+  display: flex;
+  margin-top: 37px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.company_post_card:nth-child(2) {
+  transform: scale(1.07);
+}
+
+.company_post_card {
+  max-width: 400px;
+  padding: 5px 35px;
+  background-color: rgb(204, 228, 255);
+  border-radius: 10px;
+  margin: 10px;
+  width: 100%;
+}
+
+.compnay_post_card_header {
+  margin: 25px 0px 25px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.compnay_post_card_header div {
+  display: flex;
+  align-items: center;
+}
+
+.compnay_post_card_header span {
+  font-family: "Poppins", sans-serif;
+}
+
+.company_logo {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.company_post_card h1 {
+  color: black;
+  font-size: 20px;
+  margin: 0px;
+}
+
+.company_post_card_body h2 {
+  color: black;
+  max-width: 700px;
+  width: 100%;
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 25px;
+}
+
+.company_socials_area {
+  margin: 25px 0px 25px 0px;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.company_socials_area p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #3572ef;
+}
+
+.company_socials {
+  width: 40%;
+  padding: 7px;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 10px;
+  background-color: rgb(161, 203, 248);
+}
+
+.company_post_card_social_links {
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.company_post_card_social_links:hover {
+  color: #3572ef;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1375px) {
+  .company_post_card {
+    max-width: 400px;
+  }
+}
+
+@media only screen and (max-width: 1110px) {
+  .show_post_area {
+    margin-top: 50px;
+  }
+
+  .show_post_container > h1 {
+    font-size: 45px;
+    text-align: start;
+    margin-left: 25px;
+  }
+
+  .post_cards_area {
+    margin-top: 10px;
+  }
+
+  .company_post_card {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .show_post_container h1 {
+    font-size: 35px;
+  }
+
+  .compnay_post_card_header div h1 {
+    font-size: 20px;
+  }
+
+  .company_post_card_body h2 {
+    font-size: 25px;
+  }
+}
